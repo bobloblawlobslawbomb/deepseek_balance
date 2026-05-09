@@ -2,9 +2,19 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/release/bobloblawlobslawbomb/deepseek_balance.svg)](https://github.com/bobloblawlobslawbomb/deepseek_balance/releases)
+[![Validate](https://github.com/bobloblawlobslawbomb/deepseek_balance/actions/workflows/validate.yaml/badge.svg)](https://github.com/bobloblawlobslawbomb/deepseek_balance/actions/workflows/validate.yaml)
 
-Monitor your Deepseek API account balance directly in Home Assistant. Shows your total,
-granted, and topped-up balance across all currencies.
+Monitor your [Deepseek API](https://platform.deepseek.com/) account balance
+directly in Home Assistant. Track your total, granted, and topped-up balance
+across all currencies so you never run out of credits unexpectedly.
+
+## Features
+
+- **Multi-currency support** — automatically detects all currencies on your account
+- **API availability monitoring** — binary sensor alerts you when Deepseek is unreachable
+- **Auto-polling** — configurable update interval (60s to 24h, default 5 minutes)
+- **Config flow** — set up entirely through the Home Assistant UI
+- **Options flow** — adjust update interval without re-adding the integration
 
 ## Installation
 
@@ -23,7 +33,7 @@ granted, and topped-up balance across all currencies.
 1. Go to Settings → Integrations
 2. Click "+ Add Integration"
 3. Search for "Deepseek Balance"
-4. Enter your Deepseek API key (from the Deepseek dashboard)
+4. Enter your Deepseek API key (from the [Deepseek dashboard](https://platform.deepseek.com/api_keys))
 5. Optionally adjust the update interval in the integration options
 
 ## Entities
@@ -35,8 +45,8 @@ granted, and topped-up balance across all currencies.
 | Granted Balance | Sensor | Amount granted via credits/promotions |
 | Topped Up Balance | Sensor | Amount you've topped up |
 
-All balance sensors use the MONETARY device class and are shown in their
-respective currency (e.g., USD).
+All balance sensors use the `monetary` device class and display values in their
+respective currency (e.g., USD, EUR).
 
 ---
 
