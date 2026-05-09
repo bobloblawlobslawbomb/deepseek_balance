@@ -1,0 +1,11 @@
+{
+  "domain": "deepseek_balance",
+  "name": "Deepseek Balance",
+  "version": "1.0.0",
+  "codeowners": ["@bobloblawlobslawbomb"],
+  "config_flow": true,
+  "documentation": "https://github.com/bobloblawlobslawbomb/deepseek_balance",
+  "issue_tracker": "https://github.com/bobloblawlobslawbomb/deepseek_balance/issues",
+  "iot_class": "cloud_polling",
+  "requirements": []
+}

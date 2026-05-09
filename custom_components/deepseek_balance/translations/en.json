@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Deepseek",
+        "description": "Enter your Deepseek API key to monitor your account balance.",
+        "data": {
+          "api_key": "API Key"
+        },
+        "data_description": {
+          "api_key": "Your Deepseek API key (starts with sk-)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Deepseek API",
+      "invalid_auth": "Invalid API key"
+    },
+    "abort": {
+      "already_configured": "Deepseek Balance is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Configure update interval for balance checks.",
+        "data": {
+          "update_interval": "Update Interval"
+        },
+        "data_description": {
+          "update_interval": "How often to check your balance (in seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "total_balance": {
+        "name": "Total Balance"
+      },
+      "granted_balance": {
+        "name": "Granted Balance"
+      },
+      "topped_up_balance": {
+        "name": "Topped Up Balance"
+      }
+    },
+    "binary_sensor": {
+      "is_available": {
+        "name": "API Available"
+      }
+    }
+  }
+}
