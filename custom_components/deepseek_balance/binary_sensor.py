@@ -1,7 +1,4 @@
-"""Binary sensor platform for Deepseek Balance.
-
-Generated with ha-integration@aurora-smart-home v1.0.0
-https://github.com/tonylofgren/aurora-smart-home
+﻿"""Binary sensor platform for Deepseek Balance.
 """
 from __future__ import annotations
 

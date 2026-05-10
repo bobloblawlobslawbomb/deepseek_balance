@@ -1,4 +1,4 @@
-# Deepseek Balance
+﻿# Deepseek Balance
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/release/bobloblawlobslawbomb/deepseek_balance.svg)](https://github.com/bobloblawlobslawbomb/deepseek_balance/releases)
@@ -49,4 +49,3 @@ chosen currency (USD or CHY)
 
 ---
 
-*Generated with [ha-integration@aurora-smart-home](https://github.com/tonylofgren/aurora-smart-home)*
