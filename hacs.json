@@ -1,6 +1,5 @@
 {
   "name": "Deepseek Balance",
   "render_readme": true,
-  "homeassistant": "2024.1.0",
-  "generated_with": "ha-integration@aurora-smart-home"
+  "homeassistant": "2024.1.0"
 }
